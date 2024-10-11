@@ -48,6 +48,7 @@ while($dbrow=mysqli_fetch_assoc($sql_result)){
     
     <img class='pdt-img' src='$dbrow[impath]'>
     <div>$dbrow[detail]</div>
+    <div>Ordered by Customer with userid=$dbrow[userid]</div>
    
     
     </div>";
